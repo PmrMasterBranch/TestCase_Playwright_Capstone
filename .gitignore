@@ -1,0 +1,50 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+dist/
+npm-debug.log*
+
+# Playwright
+reports/playwright_html/
+reports/test-results/
+reports/playwright_results.json
+test-results/
+playwright-report/
+
+# Generated files
+tests/*.spec.ts
+reports/*.html
+reports/*.json
+requirements/
+
+# Claude Code session files
+.claude/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+uploads/
+*.pdf
